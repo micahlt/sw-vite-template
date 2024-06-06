@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sitewrench Vite Template</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/index.jsx"></script>
+    <script type="text/javascript" src="/config/public.config.js"></script>
+    <script>
+      window.sw = {
+        set_notification: (not, notType) => console.log(not, notType),
+      };
+      window.addEventListener("DOMContentLoaded", () => {
+        sitewrenchApp.init(config);
+      });
+    </script>
+  </body>
+</html>
