@@ -10,6 +10,6 @@ This is a conceptual template for creating new Sitewrench modules and apps.  It 
 ### Scaffolding a project
 
 ```bash
-$ npx degit micahlt/sw-vite-template
+$ npx degit micahlt/sw-vite-template my-sw-module
 ```
 Running this command will download this repository without a git history so it can be used for a new Sitewrench project.
